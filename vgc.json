@@ -1,0 +1,75 @@
+{
+    "members":
+    [
+        {
+            "id": 1,
+            "name": "Doe",
+            "firstName": "John"
+        },
+        {
+            "id": 2,
+            "name": "Smith",
+            "firstName": "Jane"
+        }
+    ],
+    "boardGames":
+    [
+        {
+            "id": 1,
+            "name": "UNO",
+            "category": "FamilyGame",
+            "gamePublisher": "Mattel",
+            "expectedGameDuration": 30,
+            "numberOfPlayers": 4
+        },
+        {
+            "id": 2,
+            "name": "Monopoly",
+            "category": "FamilyGame",
+            "gamePublisher": "Hasbro",
+            "expectedGameDuration": 180,
+            "numberOfPlayers": 6
+        },
+        {
+            "id": 3,
+            "name": "Chess",
+            "category": "FamilyGame",
+            "gamePublisher": "ChessBase",
+            "expectedGameDuration": 90,
+            "numberOfPlayers": 2
+        },
+        {
+            "id": 4,
+            "name": "Risk",
+            "category": "FamilyGame",
+            "gamePublisher": "Hasbro",
+            "expectedGameDuration": 120,
+            "numberOfPlayers": 6
+        },
+        {
+            "id": 5,
+            "name": "Cute Cats Puzzle",
+            "category": "Puzzle",
+            "gamePublisher": "Ravensburger",
+            "numberOfPieces": 500
+        }
+    ],
+    "gameCopies":
+    [
+        {
+            "id": 1,
+            "condition": "good",
+            "boardGame_id": 1
+        },
+        {
+            "id": 2,
+            "condition": "poor",
+            "boardGame_id": 1
+        },
+        {
+            "id": 3,
+            "condition": "good",
+            "boardGame_id": 2
+        }
+    ]
+}

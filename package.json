@@ -1,0 +1,14 @@
+{
+  "name": "vgc-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "fakeserver": "json-graphql-server vgc.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-graphql-server": "^3.1.2"
+  }
+}
