@@ -17,6 +17,8 @@ query {
 
 ## Add a game copy for Cute Cats Puzzle
 
+Note: below it is done in two steps, because JSON GraphQL Server does not seem to support nested queries.
+
 ### Step 1: determine id of Cute Cats Puzzle game
 
 ```graphql
